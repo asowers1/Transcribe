@@ -1,0 +1,6 @@
+framework module Pods_Transcribe_Example {
+  umbrella header "Pods-Transcribe_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

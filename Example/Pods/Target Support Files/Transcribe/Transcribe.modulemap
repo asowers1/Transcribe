@@ -1,0 +1,6 @@
+framework module Transcribe {
+  umbrella header "Transcribe-umbrella.h"
+
+  export *
+  module * { export * }
+}
