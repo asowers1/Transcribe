@@ -14,7 +14,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+      var q = TSQueue<String>()
       
+      q.enQueue("aaaa")
+      q.enQueue("bbbb")
+      q.enQueue("cccc")
+      
+      let a = q.deQueue()
+      
+      print(a)
       
     }
 

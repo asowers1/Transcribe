@@ -17,16 +17,16 @@ class QNode<T> {
 }
 
 
-struct TSQueue<T> {
+public struct TSQueue<T> {
   private var top: QNode<T>!
   private var bottom: QNode<T>!
   
-  init() {
+  public init() {
     top = nil
     bottom = nil
   }
   
-  mutating func enQueue(item: T) {
+  public mutating func enQueue(item: T) {
     
     let newNode:QNode<T> = QNode(item: item)
     
@@ -40,7 +40,7 @@ struct TSQueue<T> {
     bottom = newNode
   }
   
-  mutating func deQueue() -> T? {
+  public mutating func deQueue() -> T? {
     
     let topItem: T? = top?.value
     if topItem == nil {
@@ -57,12 +57,12 @@ struct TSQueue<T> {
     return topItem
   }
   
-  func isEmpty() -> Bool {
+  public func isEmpty() -> Bool {
     
     return top == nil ? true : false
   }
   
-  func peek() -> T? {
+  public func peek() -> T? {
     return top?.value
   }
   

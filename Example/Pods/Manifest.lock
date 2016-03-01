@@ -28,6 +28,6 @@ SPEC CHECKSUMS:
   Nimble: 4c353d43735b38b545cbb4cb91504588eb5de926
   Nimble-Snapshots: ab41dd737dcd33a0b0cb005a30465fef70b7207a
   Quick: 563d0f6ec5f72e394645adb377708639b7dd38ab
-  Transcribe: adbf09a7dc7b0482529a102b9d7ff32f82170fc8
+  Transcribe: 2f7059768660f44119d581660bff495c15dcb4bf
 
 COCOAPODS: 0.39.0
