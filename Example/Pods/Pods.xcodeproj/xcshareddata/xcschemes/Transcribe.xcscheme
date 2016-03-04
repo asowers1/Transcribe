@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EF806792664249790ED3D78E'
+               BlueprintIdentifier = '6844CFBB5ECA10F859425B6D'
                BlueprintName = 'Transcribe'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Transcribe.framework'>

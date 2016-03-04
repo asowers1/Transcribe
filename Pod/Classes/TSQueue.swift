@@ -6,6 +6,23 @@
 //
 //
 
+typealias b = String
+typealias e = String
+typealias i = String
+typealias small = String
+typealias s = String
+typealias u = String
+typealias color = String
+
+enum Element: String {
+    case b = "b"
+    case e = "e"
+    case i = "i"
+    case small = "small"
+    case s = "s"
+    case u = "u"
+    case color = "color"
+}
 
 class QNode<T> {
   var value: T
