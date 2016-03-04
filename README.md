@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/Transcribe.svg?style=flat)](http://cocoapods.org/pods/Transcribe)
 [![Platform](https://img.shields.io/cocoapods/p/Transcribe.svg?style=flat)](http://cocoapods.org/pods/Transcribe)
 
+![Alt text](/\<Transcribe\>.png?raw=true "Transcribe Logo")
+
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
